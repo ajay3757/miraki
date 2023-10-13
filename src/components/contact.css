@@ -1,0 +1,32 @@
+#main{
+    display: grid;
+    /* grid-template-rows: 1fr; */
+    grid-template-rows: auto; 
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+#main img{
+    width: 100%;
+    /* max-width: 100%; */
+    height: auto;
+}
+.centered-table {
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    #main {
+      padding: 10px;
+    overflow: auto; 
+    align-content: flex-start; 
+    min-height: 100vh; 
+    text-align: left; 
+  }
+  
+    .centered-table {
+      font-size: small;
+    }
+  }

@@ -1,0 +1,32 @@
+#number1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+#number2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+#number{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 8px;
+}
+
+h1 {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+@media screen and (max-width: 600px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
